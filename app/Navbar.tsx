@@ -84,7 +84,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row  items-center rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className=" rounded-full hover:bg-white">Főlap</span>
+            <span className=" rounded-full hover:bg-white">Okai</span>
           </button>
           <button
             onClick={() => {
@@ -92,7 +92,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Ajánlataink</span>
+            <span className="rounded-full hover:bg-white">Luther</span>
           </button>
           <button
             onClick={() => {
@@ -100,7 +100,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Vezetőink</span>
+            <span className="rounded-full hover:bg-white">Kálvin</span>
           </button>
           <button
             onClick={() => {
@@ -108,7 +108,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Rólunk</span>
+            <span className="rounded-full hover:bg-white">Jezsuiták</span>
           </button>
           <button
             onClick={() => {
@@ -116,7 +116,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Telephelyek</span>
+            <span className="rounded-full hover:bg-white">Tridenti zsinat</span>
           </button>
         </div>
       </div>
@@ -133,7 +133,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">Főlap</span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">Okai</span>
           </button>
           <button
             onClick={() => {
@@ -141,9 +141,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">
-              Ajánlataink
-            </span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">Luther</span>
           </button>
           <button
             onClick={() => {
@@ -151,9 +149,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">
-              Vezetőink
-            </span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">Kálvin</span>
           </button>
           <button
             onClick={() => {
@@ -161,7 +157,9 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">Rólunk</span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">
+              Jezsuiták
+            </span>
           </button>
 
           <button
@@ -171,7 +169,7 @@ const Navbar = () => {
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
             <span className="rounded-full bg-[#1f1f1f] text-white">
-              Telephelyek
+              Trindenti zsinat
             </span>
           </button>
         </div>

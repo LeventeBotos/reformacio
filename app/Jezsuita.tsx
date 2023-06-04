@@ -1,6 +1,6 @@
 export const Jezsuita = () => {
   return (
-    <div className="flex flex-col h-96">
+    <section id="jezsuita" className="flex flex-col">
       <p className="text-2xl font-semibold">Jezsuita rend</p>
       <p className="text-lg">
         A reformkor idejében legmeghatározóbb rend. Ők Krisztus katonái. Nagyon
@@ -9,6 +9,6 @@ export const Jezsuita = () => {
         létre, lelki gyakorlatokat tartanak, foglalkoznak az emberekkel, így
         probálják meggyőzni őket.
       </p>
-    </div>
+    </section>
   );
 };

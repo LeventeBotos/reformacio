@@ -1,6 +1,6 @@
 export const Luther = () => {
   return (
-    <div className="flex flex-col h-96">
+    <section id="luther" className="flex flex-col">
       <p className="text-2xl font-semibold">Luther Márton</p>
       <p className="text-lg">
         Egy német szerzetes, aki 1517. október 31-én Wittenberg várára kitűzi a
@@ -15,6 +15,6 @@ export const Luther = () => {
         mellette, és elrejti Waltburgba, ahol lefordítja a Bibliát németre. Ez a
         fordítás a német irodalmi nyelv alapja.
       </p>
-    </div>
+    </section>
   );
 };

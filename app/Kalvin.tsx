@@ -1,6 +1,6 @@
 export const Kalvin = () => {
   return (
-    <div className="flex flex-col h-96">
+    <section id="kalvin" className="flex flex-col">
       <p className="text-2xl font-semibold">Kálvin János</p>
       <p className="text-lg">
         Hasonló elvei vannak, mint Luthernek. Eltér viszont abban, hogy a
@@ -11,6 +11,6 @@ export const Kalvin = () => {
         álló tanácsot hívták Prebisériumnak. Az egyén volt fontos számukra, az
         önálló gondolkodás.
       </p>
-    </div>
+    </section>
   );
 };

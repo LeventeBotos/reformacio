@@ -1,6 +1,6 @@
 export const Causes = () => {
   return (
-    <div className="flex flex-col h-96">
+    <section id="causes" className="flex flex-col ">
       <p className="text-2xl font-semibold">Reformáció okai</p>
       <p className="text-lg">
         A középkor végén rossz körülmények között éltek az emberek. Pestis
@@ -12,6 +12,6 @@ export const Causes = () => {
         szempontból kellett már a megújulás. Husz János az első, aki ezt
         probálja megvasósítani, de sikertelenül.
       </p>
-    </div>
+    </section>
   );
 };

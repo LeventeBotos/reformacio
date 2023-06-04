@@ -1,6 +1,6 @@
 export const Trident = () => {
   return (
-    <div className="flex flex-col h-96">
+    <section id="trident" className="flex flex-col">
       <p className="text-2xl font-semibold">Tridenti zsinat (1545-1563)</p>
       <p className="text-lg">
         III. Pál Pápa hívja össze. Célja kettős: -Hittételek tisztázása
@@ -15,6 +15,6 @@ export const Trident = () => {
         miserend, latin nyelven - Katekizmus: A Szentírást magyarázó írás -
         Egyetemeket és iskolákat alapítanak
       </p>
-    </div>
+    </section>
   );
 };
