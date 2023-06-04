@@ -1,9 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
+import { Footer } from "./Footer";
 
 const Navbar = () => {
   function onLinkClick(num: number) {
@@ -68,7 +67,7 @@ const Navbar = () => {
         alt="logo"
         className=" h-16 self-center opacity-100 md:h-24"
       /> */}
-      <p className="text-2xl">Reformáció</p>
+      <p className="text-2xl font-bold">Reformáció</p>
       <button
         id="nav-toggle"
         className="menuu block h-12 w-auto items-center hover:text-primary lg:hidden"
@@ -84,7 +83,9 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row  items-center rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className=" rounded-full hover:bg-white">Okai</span>
+            <span className=" rounded-full hover:bg-white">
+              Reformáció okai
+            </span>
           </button>
           <button
             onClick={() => {
@@ -92,7 +93,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Luther</span>
+            <span className="rounded-full hover:bg-white">Luther Márton</span>
           </button>
           <button
             onClick={() => {
@@ -100,7 +101,7 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-transparent text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full hover:bg-white">Kálvin</span>
+            <span className="rounded-full hover:bg-white">Kálvin János</span>
           </button>
           <button
             onClick={() => {
@@ -133,7 +134,9 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">Okai</span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">
+              Reformáció okai
+            </span>
           </button>
           <button
             onClick={() => {
@@ -141,7 +144,9 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">Luther</span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">
+              Luther Márton
+            </span>
           </button>
           <button
             onClick={() => {
@@ -149,7 +154,9 @@ const Navbar = () => {
             }}
             className="flex min-w-min flex-row items-center  rounded-full bg-white text-center hover:bg-black hover:text-black hover:underline"
           >
-            <span className="rounded-full bg-[#1f1f1f] text-white">Kálvin</span>
+            <span className="rounded-full bg-[#1f1f1f] text-white">
+              Kálvin János
+            </span>
           </button>
           <button
             onClick={() => {
@@ -173,25 +180,7 @@ const Navbar = () => {
             </span>
           </button>
         </div>
-        <div className="flex flex-col p-5 text-center text-white">
-          <p>Kövess minket!</p>
-          <div className="flex justify-center text-5xl">
-            <a
-              target="_blank"
-              className="whitee"
-              href="https://www.facebook.com"
-            >
-              <AiFillFacebook />
-            </a>
-            <Link
-              target="_blank"
-              className="whitee"
-              href="https://www.Linkedin.com"
-            >
-              <AiFillLinkedin />
-            </Link>
-          </div>
-        </div>
+        <Footer />
       </div>
     </nav>
   );

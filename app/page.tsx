@@ -6,7 +6,7 @@ import { Trident } from "./Trident";
 
 export default function Home() {
   return (
-    <main className="flex gap-5 text-center p-3 md:p-5 flex-col">
+    <main className="flex gap-10 text-center p-3 md:p-5 flex-col">
       <div className=" h-12" />
       <Causes />
       <Luther />
