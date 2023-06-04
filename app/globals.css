@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   border: 1px red solid;
-}
+} */
 * {
   --primary: #F6B41C;
   /* --primary: #053387;  */
@@ -133,5 +133,18 @@ box-shadow: 10px 10px 22px -7px rgba(0,0,0,1);
 
 
 img {
-  opacity: 65%;
+  opacity: 85%;
+  border-radius: 15px;
 }
+
+/* #luther {
+  color: whitesmoke;
+  background: rgb(92,130,126);
+background: linear-gradient(135deg, rgba(92,130,126,1) 0%, rgba(0,205,172,1) 91%);
+}
+
+#causes {
+  color: whitesmoke;
+  background: rgb(157,90,51);
+background: linear-gradient(135deg, rgba(157,90,51,1) 0%, rgba(145,138,91,1) 100%);
+} */
