@@ -33,6 +33,7 @@ body {
   background-color: whitesmoke;
   color: #1d1d1d;
   font-weight: 600;
+  list-style-type: disc;
 }
 
 button {
